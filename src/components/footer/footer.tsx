@@ -1,4 +1,4 @@
-const Footer: React.FC = () => {
+export const Footer: React.FC = () => {
 
 	const demoCreated = 2022;
 
@@ -16,5 +16,3 @@ const Footer: React.FC = () => {
 			{year !== demoCreated ? `—${year}` : ''}</p>
 	</footer>)
 }
-
-export default Footer;
